@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyFlytMenagerie"
+version = "0.0.1"
+authors = [
+  { name="Jet", email="taijunjet@hotmail.com" },
+]
+description = "Examples of various custom drones within PyFlyt."
+readme = "readme.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["pyflyt"]
+keywords = ["Reinforcement Learning", "UAVs", "drones", "PyFlyt"]
+license = { file="./LICENSE.txt" }
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["PyFlytMenagerie", "PyFlytMenagerie.*"]
+
+[project.urls]
+Repository = "https://github.com/jjshoots/PyFlytMenagerie"
+"Bug Report" = "https://github.com/jjshoots/PyFlytMenagerie/issues"
+
+#######################################################################################
+# linters
+#######################################################################################
+[tool.pyright]
+reportMissingImports = "none"
