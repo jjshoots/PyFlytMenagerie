@@ -2,14 +2,14 @@
 from __future__ import annotations
 
 import os
+
 import numpy as np
 import yaml
 from pybullet_utils import bullet_client
-
 from PyFlyt.core.abstractions.base_drone import DroneClass
 from PyFlyt.core.abstractions.camera import Camera
-from PyFlyt.core.abstractions.lifting_surfaces import LiftingSurface, LiftingSurfaces
 from PyFlyt.core.abstractions.gimbals import Gimbals
+from PyFlyt.core.abstractions.lifting_surfaces import LiftingSurface, LiftingSurfaces
 from PyFlyt.core.abstractions.motors import Motors
 
 
