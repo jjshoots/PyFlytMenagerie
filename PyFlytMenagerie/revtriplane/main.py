@@ -1,6 +1,6 @@
 import numpy as np
 from PyFlyt.core import Aviary
-from revtriplane import Revtriplane
+from PyFlytMenagerie import Revtriplane
 
 if __name__ == "__main__":
     # the starting position and orientations
