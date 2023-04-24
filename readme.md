@@ -1,1 +1,1 @@
-# PyFlyt Menagerie - A collection of custom aircraft implemented in PyFlyt
+# PyFlyt Menagerie - A collection of custom aircraft implementations in PyFlyt
